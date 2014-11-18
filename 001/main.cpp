@@ -75,6 +75,7 @@ int main(int argc, char *argv[])
 		}
 	}
 
+	SDL_DestroyTexture(bkg);
 	SDL_DestroyRenderer(ren);
 	SDL_DestroyWindow(win);
 	SDL_Quit();
