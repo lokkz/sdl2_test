@@ -46,7 +46,6 @@ int main(int argc, char *argv[])
 		return 1;
 	}
 
-	//SDL_Delay(2000);
 	SDL_Event ev;
 	bool quit = 0;
 
