@@ -93,3 +93,5 @@ void toggle_fs()
 	else
 		SDL_SetWindowFullscreen(win, 1);
 }
+
+//EOF
